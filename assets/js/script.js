@@ -8,7 +8,14 @@ arr.forEach(button => {
     debugger;
     button.addEventListener('click', (e) => {
         if(e.target.innerHTML == '='){
-            string =eval(string);
+            if(string.includes('%')) {
+                let firstNum = string.split('%')[0];
+                let secondNum = string.split('%')[1];
+                string = (firstNum / 100) * secondNum;
+                document.querySelector('input').value = string;
+            } else {
+                string =eval(string);
+            } 
            document.querySelector('input') .value = string;
         }
       
@@ -17,6 +24,8 @@ arr.forEach(button => {
             document.querySelector('input').value = string;
         }
         
+         
+       
         
     else{
         console.log(e.target)
