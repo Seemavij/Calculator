@@ -17,7 +17,16 @@ As a user of the Website, I want to see what filters are currently applied on ea
 As a user of the Website, I want to be able to reset applied filters for each chart, so I can switch filters I'm not currently interested in.
 As a mobile device user, I want the Website to be mobile-friendly, so I can use my tablet or smartphone to visit it.
 ####
+HTML
+Home Page
+No errors or warnings were found when passing through the official W3C validator.
 ![html validator screenshot](assets/images/html-validator.png)
+CSS
+No errors or warnings were found when passing through the official w3c css validator.
 ![css validator screenshot](assets/images/css-validator.png)
+Flow Chart Screenshot
 ![flow chart screenshot](assets/images/flowchart.png)
 ####
+Footer
+contains as copyright of Author
+CopyRight © 2023 Super Saver Calculator
