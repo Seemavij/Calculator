@@ -19,3 +19,5 @@ As a mobile device user, I want the Website to be mobile-friendly, so I can use 
 ####
 ![html validator screenshot](assets/images/html-validator.png)
 ![css validator screenshot](assets/images/css-validator.png)
+![flow chart screenshot](assets/images/flowchart.png)
+####
