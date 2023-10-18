@@ -10,6 +10,13 @@
 *   Html
 *   Css
 *  Javascript
+
+HTML was used as the foundation of the site.
+CSS - was used to add the styles and layout of the site.
+JavaScript - used to create the calculator, and to operate the users interaction with the page.
+Visual Studio Code was used as the main tool to write and edit code.
+Git was used for the version control of the website.
+GitHub was used to host the code of the website.
 ######
 As a first-time visitor, I want to understand the purpose of the Website, so I can use it properly.
 As a first-time visitor, I want to see what technologies have been used to create the Website, so I can learn more about them and use them myself.
@@ -32,3 +39,15 @@ Flow Chart Screenshot
 Footer
 contains as copyright of Author
 CopyRight © 2023 Super Saver Calculator
+####
+About Calculator
+Main Menu
+AC Menu Buttons
+Positioned at the center of the page for clear visibility.
+19 Buttons
+Working and doing calculations.
+By clicking the AC button calculator is start we can do adition,substraction,multiplication,division,percentage etc.
+It is helping to do  calculation easier.
+####
+
+
