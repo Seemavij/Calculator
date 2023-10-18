@@ -1,3 +1,9 @@
+User Stories :
+First Time Visitor Goals:
+As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the calculator.
+As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
+As a First Time Visitor, I want to quickly acces the calculator so I can start Using.
+
 # Super Saver Bank Calculator
  * They are number stores where numbers are stored temporarily while doing calculations.
  * All numbers are working. Addition, Substraction, Multiply, Division, Percentage and done calculation.
@@ -40,7 +46,7 @@ Footer
 contains as copyright of Author
 CopyRight © 2023 Super Saver Calculator
 ####
-About Calculator
+About Calculator :
 Main Menu
 AC Menu Buttons
 Positioned at the center of the page for clear visibility.
