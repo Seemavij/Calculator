@@ -24,6 +24,8 @@ No errors or warnings were found when passing through the official W3C validator
 CSS
 No errors or warnings were found when passing through the official w3c css validator.
 ![css validator screenshot](assets/images/css-validator.png)
+No errors showing were found when passing through the jshint .
+![jshint testing screenshot](assets/images/js)
 Flow Chart Screenshot
 ![flow chart screenshot](assets/images/flowchart.png)
 ####
