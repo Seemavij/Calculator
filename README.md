@@ -55,7 +55,24 @@ Working and doing calculations.
 By clicking the AC button calculator is start we can do adition,substraction,multiplication,division,percentage etc.
 It is helping to do  calculation easier.
 AC button use for  turn off the calculator.
-Press any number for calculation.
+Press any  1 to 9 number for calculation.
+Use any opreator for calculation.
+Manual Testing :
+
+There are Addition, Substraction, Multiply, Division, percentage and Eaual opreator.
+For Example if you want you can add 1 + 5 = 6
+For Example if you want you can Substaction 7 - 5 = 2
+For Example if you want you can Multiply 5 * 5 = 25
+For Example if you want you can Divide 20 / 5 = 4
+For Example if you want you can Percentage 50 % 5 = 2.5
+If you want to off press AC
+![Screenshot Addition](/assets/images/addition%20screenshot.png)
+![Screenshot Substraction](/assets/images/substraction%20screenshot.png)
+![Screenshot Multiply](/assets/images/multiply%20screenshot.png)
+![Screenshot Divide](/assets/images/divide%20screenshot.png)
+![Screenshot Percentage](/assets/images/percentage%20screenshot.png)
 ####
-
-
+Accessibility and performance
+Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+Home page:
+![Screenshot Add](/assets/images/performance%20test.png)
