@@ -40,7 +40,7 @@ No errors or warnings were found when passing through the official w3c css valid
 No errors showing were found when passing through the jshint .
 ![jshint testing screenshot](assets/images/js)
 Flow Chart Screenshot
-![flow chart screenshot](assets/images/flowchart.png)
+![flow chart screenshot](/assets/images/flowchart%20.png)
 ####
 Footer
 contains as copyright of Author
@@ -54,6 +54,8 @@ Positioned at the center of the page for clear visibility.
 Working and doing calculations.
 By clicking the AC button calculator is start we can do adition,substraction,multiplication,division,percentage etc.
 It is helping to do  calculation easier.
+AC button use for  turn off the calculator.
+Press any number for calculation.
 ####
 
 
