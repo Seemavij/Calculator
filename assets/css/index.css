@@ -101,13 +101,17 @@ button {
 }
 
 
-/* When the browser is at least 600px and above */
+/* --------- Media queries */
 @media screen and (min-width: 600px) {
-    .element {
-      /* Apply some styles */
-      391 x 851
-    }
-  }
+    {
+        width : 70%;
+} } 
+    
+  
+  @media (max-width: 414px) {
+    {
+        width: 100%;
+    }}
 
 
 
