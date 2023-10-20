@@ -109,3 +109,20 @@ Colour :
 * Orange use for AC Button
 * white is use and mix with Background
 * Transperent is used for Display
+
+####
+Testing :
+* In order to confirm the correct functionality, responsiveness, and appearance:
+
+* The website was tested on the following browsers: Chrome, Firefox, Edge.
+
+* Chrome:
+![XR Image](/assets/images/iphone%20XR.png)
+* Firefox
+![IPad Image](/assets/images/ipad%20Air.png)
+* Safari
+![Desktop Image](/assets/images/Desktop%20screenshot.png)
+* Edge
+![Dimenson Pixel](/assets/images/dimension%20pixel%205.png)
+
+* The website was checked by devtools implemented in Edge and Chrome browsers.
