@@ -71,7 +71,7 @@ Footer:
 
 ####
 Manual Testing :
-
+I confirmed that I done Manual Testing.
 * There are Addition, Substraction, Multiply, Division, percentage and Eaual opreator.
 * For Example if you want you can add 1 + 5 = 6
 * For Example if you want you can Substaction 7 - 5 = 2
@@ -90,8 +90,10 @@ Manual Testing :
 
 ####
 * Accessibility and performance
+
 * Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 * Home page:
+
 ![Screenshot Add](/assets/images/performance%20test.png)
 
 ####
@@ -126,3 +128,43 @@ Testing :
 ![Dimenson Pixel](/assets/images/dimension%20pixel%205.png)
 
 * The website was checked by devtools implemented in Edge and Chrome browsers.
+
+####
+Wireframes
+* 
+
+Deployment
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab and then choose pages in the left panel.
+* From the source section drop-down menu, select the Main Branch, then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The live link can be found here
+
+####
+Local Deployment
+* In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+git clone 
+
+Alternatively, if you use Gitpod, you can click here, which will start the Gitpod workspace for you.
+
+Future improvements
+Add play against computer option
+Media
+*  Google Fonts
+*  Favicon
+*  Tools
+*  Iloveimages was used to resize GIF images.
+*  cooler was used to create the color palette.
+*  Am I responsive was used for responsive mockup png.
+*  image optimizer was used to resize images.
+*  Flowchart Maker & Online Diagram Software for flowchart creation.
+
+####
+Acknowledgments
+* Code Institute there Code Institute course material in html CSS and java Script and the Slack community members for their  help and support.
+* Laura Mayock Who helped me  to make some challanges easier.
+* Aleksei Konovalov my Code Institue tutor who helped me .
+####
+About :
+* This is a Calculator using for Calculation.
