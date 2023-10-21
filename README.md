@@ -81,14 +81,12 @@ I confirmed that I done Manual Testing.
 * For Example if you want you can Percentage 50 % 5 = 2.5
 * If you want to off press AC
 
-
 ![Screenshot Addition](/assets/images/addition%20screenshot.png)
 ![Screenshot Substraction](/assets/images/substraction%20screenshot.png)
 ![Screenshot Multiply](/assets/images/multiply%20screenshot.png)
 ![Screenshot Divide](/assets/images/divide%20screenshot.png)
 ![Screenshot Percentage](/assets/images/percentage%20screenshot.png)
-
-
+![screensot testing](/assets/images/testing%20outcome.png)
 ####
 * Accessibility and performance
 
@@ -116,7 +114,6 @@ Colour :
 ####
 Testing :
 * In order to confirm the correct functionality, responsiveness, and appearance:
-
 * The website was tested on the following browsers: Chrome, Firefox, Edge.
 
 * Chrome:
@@ -128,7 +125,7 @@ Testing :
 * Edge
 ![Dimenson Pixel](/assets/images/dimension%20pixel%205.png)
 
-* [testing outcome](/assets/images/testing%20outcome.png)
+*![testing outcome](/assets/images/testing%20outcome.png)
 
 * The website was checked by devtools implemented in Edge and Chrome browsers.
 
@@ -159,9 +156,10 @@ Media
 *  Google Fonts
 *  Favicon
 *  Tools
-*  Iloveimages was used to resize GIF images.
+*  I loveimages was used to resize GIF images.
 *  cooler was used to create the color palette.
 *  Am I responsive was used for responsive mockup png.
+*  Balsamiq was used to make wireframes for the website.
 *  image optimizer was used to resize images.
 *  Flowchart Maker & Online Diagram Software for flowchart creation.
 *  Website Mockup Generator Was used to create the responsive Mockup png for Readme file visualisation.
