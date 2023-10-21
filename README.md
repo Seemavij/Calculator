@@ -1,3 +1,4 @@
+![respnsive](/assets/images/responsive.png1.png)
 # User Stories :
 * First Time Visitor Goals:
 * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the calculator.
@@ -127,11 +128,15 @@ Testing :
 * Edge
 ![Dimenson Pixel](/assets/images/dimension%20pixel%205.png)
 
+* [testing outcome](/assets/images/testing%20outcome.png)
+
 * The website was checked by devtools implemented in Edge and Chrome browsers.
 
 ####
 Wireframes
-* 
+* ![Screenshot](/assets/images/wireframe%20image%20-1.png)
+* ![Screenshot](/assets/images/wireframe%20image%20-2.png)
+* ![Screenshot](/assets/images/wireframe%20image%20-3.png)
 
 Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -159,12 +164,13 @@ Media
 *  Am I responsive was used for responsive mockup png.
 *  image optimizer was used to resize images.
 *  Flowchart Maker & Online Diagram Software for flowchart creation.
-
+*  Website Mockup Generator Was used to create the responsive Mockup png for Readme file visualisation.
 ####
 Acknowledgments
 * Code Institute there Code Institute course material in html CSS and java Script and the Slack community members for their  help and support.
 * Laura Mayock Who helped me  to make some challanges easier.
 * Aleksei Konovalov my Code Institue tutor who helped me .
+
 ####
 About :
 * This is a Calculator using for Calculation.
