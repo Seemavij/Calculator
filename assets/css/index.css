@@ -20,6 +20,16 @@ main {
     align-items: center;
 }
 
+.display {
+    position: relative;
+}
+
+.operation {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    /* color: yellow; */
+}
 
 .heading {
     text-align: center;
@@ -119,3 +129,26 @@ button {
     
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
