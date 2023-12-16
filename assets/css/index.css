@@ -1,14 +1,14 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
 }
+
 body {
     background-color: rgb(128, 128, 128);
-    min-height :100vh;    
-    display :flex;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -61,12 +61,12 @@ button {
     height: 80px;
     border-radius: 50%;
     margin-bottom: 5px;
-    color: black;
+    color: rgb(19, 4, 4);
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     font-size: 250%;
-   }
+}
 
 .screen {
     background-color: black;
@@ -106,81 +106,27 @@ button {
     border: 1px transparent;
     border-radius: 20px;
 }
-.operator{
-      color: crimson ;
-    
+
+.operator {
+    color: crimson;
+
 }
+
+
+/* --------- Media queries */
+@media screen and (min-width: 600px) {
+
+    .controls-area {
+     width: 70%;
+     margin: 10px auto;
+    }
+  
+    
+} 
+
 
 @media (max-width: 414px) {
     .controls-area {
-        width: 100%;
-    }
-
-    .btn--big {
-        margin: 0 10px;
-        padding: 5px;
-        border: 5px solid;
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
-    }
-
-    .btn--big::after {
-        font-size: 0.6rem;
-        left: -0.7rem;
-    }
-
-    .question-area {
-        padding: 10% 0;
-        width: 100%;
-    }
-
-    .question-area span {
-        padding: 0;
-    }
-
-    .answer-message {
-        display: block;
-    }
-
-    #answer-box {
-        display: block;
-        margin: 0 auto;
-    }
-    .btn--gray {
-        margin-top: 0;
-    }
-
-    .score-area {
-        width: 100%;
-    }
-
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
-
-    .heading {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 320px) {
-    .game-area {
-        height: 70vh;
-    }
-
-    .controls-area {
-        width: 75%;
-        margin: 10px auto;
-    }
-
-    .btn--big {
-        margin: 10px 10px;
-    }
-    .question-area {
-        padding: 10px 0;
-    }
-
-}
+     width: 100%;
+    
+}}

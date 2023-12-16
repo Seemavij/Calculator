@@ -35,10 +35,10 @@
 HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
-![html validator screenshot](assets/images/html-validator.png)
+![html validator screenshot](assets/images/htmlvalidator.png)
 CSS
 No errors or warnings were found when passing through the official w3c css validator.
-![css validator screenshot](assets/images/css-validator.png)
+![css validator screenshot](assets/images/cssvalidator.png)
 No errors showing were found when passing through the jshint .
 ![jshint testing screenshot](/assets/images/js-testing.png)
 Flow Chart Screenshot
@@ -54,7 +54,7 @@ Footer:
 ####
 * LOGO
 * Calculator
-* Name Super Saver Calculator
+* Name Super Saver Calculator 2023
 
 
 ####
