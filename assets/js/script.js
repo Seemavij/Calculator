@@ -53,12 +53,14 @@ function clearInput() {
 }
 
 operandList.forEach((button) => {
-  button.addEventListener('click', getOperand)});
+  button.addEventListener('click', getOperand);
+   });
 
 
 
 operatorList.forEach((button) => {
-  button.addEventListener('click', getOperator)});
+  button.addEventListener('click', getOperator);
+  });
 
 
 
