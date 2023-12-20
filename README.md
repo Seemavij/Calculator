@@ -40,9 +40,9 @@ CSS
 No errors or warnings were found when passing through the official w3c css validator.
 ![css validator screenshot](assets/images/cssvalidator.png)
 No errors showing were found when passing through the jshint .
-![jshint testing screenshot]()
+![jshint testing screenshot](assets/images/jshint.png)
 Flow Chart Screenshot
-![flow chart screenshot](/assets/images/flowchart%20.png)
+![flow chart screenshot](/assets/images/flowchart.png)
 
 ####
 
@@ -74,26 +74,16 @@ Footer:
 Manual Testing :
 I confirmed that I done Manual Testing.
 * There are Addition, Substraction, Multiply, Division, percentage and Eaual opreator.
-* For Example if you want you can add 1 + 5 = 6
-* For Example if you want you can Substaction 7 - 5 = 2
-* For Example if you want you can Multiply 5 * 5 = 25
-* For Example if you want you can Divide 20 / 5 = 4
-* For Example if you want you can Percentage 50 % 5 = 2.5
+* I cofirmed all buttons working correct.
 * If you want to off press AC
 
-![Screenshot Addition](/assets/images/addition%20screenshot.png)
-![Screenshot Substraction](/assets/images/substraction%20screenshot.png)
-![Screenshot Multiply](/assets/images/multiply%20screenshot.png)
-![Screenshot Divide](/assets/images/divide%20screenshot.png)
-![Screenshot Percentage](/assets/images/percentage%20screenshot.png)
-![screensot testing](/assets/images/testing%20outcome.png)
+
 ####
 * Accessibility and performance
 
 * Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-* Home page:
 
-![Screenshot Add](/assets/images/performance%20test.png)
+![Screenshot Add](/assets/images/performancetesting.png)
 
 ####
 * Fonts:
@@ -117,25 +107,19 @@ Testing :
 * The website was tested on the following browsers: Chrome, Firefox, Edge.
 
 * Chrome:
-![XR Image](/assets/images/iphone%20XR.png)
-* Firefox
-![IPad Image](/assets/images/ipad%20Air.png)
-* Safari
-![Desktop Image](/assets/images/Desktop%20screenshot.png)
-* Edge
-![Dimenson Pixel](/assets/images/dimension%20pixel%205.png)
 
-*![testing outcome](/assets/images/testing%20outcome.png)
+
+*![testing outcome](/assets/images/testingoutcome.png)
 
 * The website was checked by devtools implemented in Edge and Chrome browsers.
 
 ####
 Wireframes
-* ![Screenshot](/assets/images/wireframe%20image%20-1.png)
-* ![Screenshot](/assets/images/wireframe%20image%20-2.png)
-* ![Screenshot](/assets/images/wireframe%20image%20-3.png)
+* ![Screenshot](/assets/images/wireframeimage1.png)
+* ![Screenshot](/assets/images/wireframeimage2.png)
 
 Deployment
+
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab and then choose pages in the left panel.
 * From the source section drop-down menu, select the Main Branch, then click "Save".
@@ -166,7 +150,7 @@ Media
 ####
 Acknowledgments
 * Code Institute there Code Institute course material in html CSS and java Script and the Slack community members for their  help and support.
-* Laura Mayock Who helped me  to make some challanges easier.
+* Laura Who helped me  to make some challanges easier.
 * Aleksei Konovalov my Code Institue tutor who helped me .
 
 ####
