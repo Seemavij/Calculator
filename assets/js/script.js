@@ -1,114 +1,126 @@
-let operand = "";
-let operand2 = "";
-let operator = "";
-let operatorBlocked = false;
-let resultOperation = "";
+const calculator = {
+  displayValue: '0',
+  firstOperand: null,
+  waitingForSecondOperand: false,
+  operator: null,
+};
 
-const operandList = document.querySelectorAll('button.operand');
-const operatorList = document.querySelectorAll('button.operator');
-const resultButton = document.getElementById('result');
-const clearButton = document.getElementById('clear');
+function del() {
+  calculator.displayValue = calculator.displayValue.slice(0, -1);
+}
 
 
+function inputDigit(digit) {
+  const { displayValue, waitingForSecondOperand } = calculator;
 
-function getOperator(event) {
-  if (operatorBlocked == false) {
-    operator = event.target.innerText;
-    operatorBlocked = true;
-    console.info('operator is ' + operator);
-    updateOperationDisplay();
+  if (waitingForSecondOperand === true) {
+    calculator.displayValue = digit;
+    calculator.waitingForSecondOperand = false;
+  } else {
+    calculator.displayValue = displayValue === '0' ? digit : displayValue + digit;
   }
 }
 
-function getOperand(event) {
-  if (operator == "") {
-    operand += event.target.innerText;
-    console.info(operand);
+function inputDecimal(dot) {
+  if (calculator.waitingForSecondOperand === true) {
+  	calculator.displayValue = "0.";
+    calculator.waitingForSecondOperand = false;
+    return;
   }
-  else {
-    operand2 += event.target.innerText;
-    console.info(operand2);
+
+  if (!calculator.displayValue.includes(dot)) {
+    calculator.displayValue += dot;
   }
-  updateOperationDisplay();
 }
 
-function updateOperationDisplay() {
-  document.getElementById('inputBox').value = `${operand} ${operator} ${operand2} = ${resultOperation}`;
+function handleOperator(nextOperator) {
+  const { firstOperand, displayValue, operator } = calculator;
+  const inputValue = parseFloat(displayValue);
+  
+  if (operator && calculator.waitingForSecondOperand)  {
+    calculator.operator = nextOperator;
+    return;
+  }
+
+
+  if (firstOperand == null && !isNaN(inputValue)) {
+    calculator.firstOperand = inputValue;
+  } else if (operator) {
+    const result = calculate(firstOperand, inputValue, operator);
+
+    calculator.displayValue = `${parseFloat(result.toFixed(7))}`;
+    calculator.firstOperand = result;
+  }
+
+  calculator.waitingForSecondOperand = true;
+  calculator.operator = nextOperator;
 }
 
-function calculateResult(event) {
-  resultOperation = eval(operand + operator + operand2);
-  updateOperationDisplay();
+function calculate(firstOperand, secondOperand, operator) {
+  if (operator === '+') {
+    return firstOperand + secondOperand;
+  } else if (operator === '-') {
+    return firstOperand - secondOperand;
+  } else if (operator === '*') {
+    return firstOperand * secondOperand;
+  } else if (operator === '/') {
+    return firstOperand / secondOperand;
+  } else if (operator === '%') {
+    return firstOperand / 100 * secondOperand;
+  }
 
+  return secondOperand;
 }
 
-
-function clearInput() {
-  operand = "";
-  operand2 = "";
-  operator = "";
-  operatorBlocked = false;
-  resultOperation = "";
-  document.getElementById('inputBox').value = "0";
+function resetCalculator() {
+  calculator.displayValue = '0';
+  calculator.firstOperand = null;
+  calculator.waitingForSecondOperand = false;
+  calculator.operator = null;
 }
 
-operandList.forEach((button) => {
-  button.addEventListener('click', getOperand);
-   });
+function updateDisplay() {
+  const display = document.querySelector('.calculator-screen');
+  display.value = calculator.displayValue;
+}
+
+updateDisplay();
+
+const keys = document.querySelector('.calculator-keys');
+keys.addEventListener('click', event => {
+  const { target } = event;
+  const { value } = target;
+  if (!target.matches('button')) {
+    return;
+  }
+
+  switch (value) {
+    case '+':
+    case '-':
+    case '*':
+    case '/':
+    case '%':
+    case '=': 
+    handleOperator(value);
+    break;
+    case '.':
+      inputDecimal(value);
+      break;
+    case 'all-clear':
+      resetCalculator();
+      break;
+    case 'DEL':
+      del();
+      break;
+    default:
+      if (Number.isInteger(parseFloat(value))) {
+        inputDigit(value);
+      }
+  }
+
+  updateDisplay();
+});
 
 
-
-operatorList.forEach((button) => {
-  button.addEventListener('click', getOperator);
-  });
-
-
-
-resultButton.addEventListener('click', calculateResult);
-clearButton.addEventListener('click', clearInput);
-
-// arr.forEach((button) => {
-//   // debugger;
-//   button.addEventListener("click", (e) => {
-//     if (e.target.innerHTML == "=") {
-//       if (!operand2) {
-//         operand2 = input.value;
-//       }
-//       operation.innerHTML = `${operand1} ${operator} ${operand2} =`;
-//       if (operator === "%") {
-//         result = (operand1 / 100) * operand2;
-//       } else {
-//         result = eval(operand1 + operator + operand2);
-//       }
-//       input.value = result;
-//       operand1 = result;
-//     } else if (e.target.innerHTML == "AC") {
-//       string = "";
-//       operand1 = "";
-//       operand2 = "";
-//       operator = "";
-//       input.value = string;
-//       operation.innerHTML = "";
-//     } else if (["+", "-", "%", "/", "*"].includes(e.target.innerHTML)) {
-//       if (!operand1) {
-//         operand1 = input.value;
-//         operator = e.target.innerHTML;
-//         string = `${operand1} ${operator}`;
-//         input.value = "";
-//         operation.innerHTML = string;
-//       } else {
-//         operator = e.target.innerHTML;
-//         string = `${operand1} ${operator}`;
-//         operation.innerHTML = string;
-//       }
-//       string = "";
-//     } else {
-//       // console.log(e.target)
-//       //    string = string + e.target.innerHTML;
-//       string += e.target.innerHTML;
-//       input.value = string;
-//     }
-//   });
-// });
 
 
