@@ -6,12 +6,13 @@
 * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can show more about the calculator.
 * As a First Time Visitor, I want to quickly acces the calculator so I can start Using.
 * As a first-time visitor, I want to understand the purpose of the Website, so I can use it properly.
-* As a first-time visitor, I want to see what technologies have been used to create the Website, so I can learn more about them and use them   myself.
+* As a first-time visitor, I want to see what technologies have been used to create the Website, so I can learn more about them and use them    myself.
 * As a user of the Website, I want to see what filters are currently applied on each chart, so I can analyze visualized data correctly.
 * As a user of the Website, I want to be able to reset applied filters for each chart, so I can switch filters I'm not currently interested in.
 * As a mobile device user, I want the Website to be mobile-friendly, so I can use my tablet or smartphone to visit it.
 
 # Super Saver Bank Calculator :
+
  * They are number stores where numbers are stored temporarily while doing calculations.
  * All numbers are working. Addition, Substraction, Multiply, Division, Percentage and done calculation.
  * All function are working correctly.
@@ -33,23 +34,28 @@
 * Git was used for the version control of the website.
 * GitHub was used to host the code of the website.
 
+Testing:
 
 ####
 HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
+
 ![html validator screenshot](assets/images/htmlvalidator.png)
 
 CSS
 Home page
 No errors or warnings were found when passing through the official w3c css validator.
+
 ![css validator screenshot](assets/images/cssvalidator.png)
 
 JShint
 Home page
 No errors showing were found when passing through the jshint .
+
 ![jshint testing screenshot](assets/images/jshint.png)
 
+Chart
 Flow Chart Screenshot
 
 ![flow chart screenshot](assets/images/flowchart.png)
@@ -68,6 +74,7 @@ Footer:
 
 ####
 * About Calculator :
+
 * Main Menu
 * AC Menu Buttons
 * Positioned at the center of the page for clear visibility.
@@ -81,6 +88,7 @@ Footer:
 
 ####
 Manual Testing :
+
 I confirmed that I done Manual Testing.
 * There are Addition, Substraction, Multiply, Division, percentage and Eaual opreator.
 * I cofirmed all buttons working correct.
