@@ -101,6 +101,7 @@ I confirmed that I done Manual Testing.
 
 ####
 Colour :
+  9d0208
 * 000000 fca311 e5e5e5 f5ebe0 001219
 * Black use for base of calculator
 * Orange use for AC Button
