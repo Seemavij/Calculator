@@ -139,9 +139,9 @@ html  {
 } 
 
 
-@media (max-width: 475px) {
+@media (max-width: 480px) {
     .controls-area {
-     width: 100%;
+     width: 75%;
     
 }}
 
