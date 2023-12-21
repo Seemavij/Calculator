@@ -1,5 +1,7 @@
 ![responsive]
+
 # User Stories :
+
 * First Time Visitor Goals:
 * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can show more about the calculator.
 * As a First Time Visitor, I want to quickly acces the calculator so I can start Using.
@@ -17,6 +19,7 @@
  * Button color white
 
 # Technologies Used :
+
 *  Html
 * Css
 * Javascript
@@ -38,12 +41,12 @@ No errors or warnings were found when passing through the official W3C validator
 ![html validator screenshot](assets/images/htmlvalidator.png)
 
 CSS
-
+Home page
 No errors or warnings were found when passing through the official w3c css validator.
 ![css validator screenshot](assets/images/cssvalidator.png)
 
 JShint
-
+Home page
 No errors showing were found when passing through the jshint .
 ![jshint testing screenshot](assets/images/jshint.png)
 
@@ -92,6 +95,7 @@ I confirmed that I done Manual Testing.
 ![Screenshot Add](assets/images/performancetesting.png)
 
 ####
+
 * Fonts:
 * Poppins
 * font-family: 'AR One Sans', sans-serif;
@@ -100,6 +104,7 @@ I confirmed that I done Manual Testing.
 * Designed by Robert Leuschke
 
 ####
+
 Colour :
 * 9d0208 001219 e36414 283618 283618
 * 000000 fca311 e5e5e5 f5ebe0 001219
@@ -110,11 +115,11 @@ Colour :
 * Transperent is used for Display
 
 ####
+
 Testing :
 * In order to confirm the correct functionality, responsiveness, and appearance:
 * The website was tested on the following browsers: Chrome, Firefox, Edge.
 
-* Chrome:
 
 
 *![testing outcome](assets/images/testingoutcome.png)
