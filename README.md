@@ -38,18 +38,22 @@ Testing:
 
 ####
 HTML
+
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
 
 ![html validator screenshot](assets/images/htmlvalidator.png)
 
 CSS
+
 Home page
+
 No errors or warnings were found when passing through the official w3c css validator.
 
 ![css validator screenshot](assets/images/cssvalidator.png)
 
 JShint
+
 Home page
 No errors showing were found when passing through the jshint .
 
