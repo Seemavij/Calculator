@@ -36,12 +36,19 @@ HTML
 Home Page
 No errors or warnings were found when passing through the official W3C validator.
 ![html validator screenshot](assets/images/htmlvalidator.png)
+
 CSS
+
 No errors or warnings were found when passing through the official w3c css validator.
 ![css validator screenshot](assets/images/cssvalidator.png)
+
+JShint
+
 No errors showing were found when passing through the jshint .
 ![jshint testing screenshot](assets/images/jshint.png)
+
 Flow Chart Screenshot
+
 ![flow chart screenshot](assets/images/flowchart.png)
 
 ####
