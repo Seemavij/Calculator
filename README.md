@@ -1,4 +1,4 @@
-![responsive]
+![responsive](assets/images/responsive.png)
 
 # User Stories :
 
