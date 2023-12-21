@@ -101,11 +101,12 @@ I confirmed that I done Manual Testing.
 
 ####
 Colour :
-  9d0208
+* 9d0208 001219 e36414 283618 283618
 * 000000 fca311 e5e5e5 f5ebe0 001219
 * Black use for base of calculator
-* Orange use for AC Button
-* white is use and mix with Background
+* Orange use for AC Button.
+* white is use for numbers.
+* Green is used for button background.
 * Transperent is used for Display
 
 ####
