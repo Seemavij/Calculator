@@ -42,7 +42,7 @@ No errors or warnings were found when passing through the official w3c css valid
 No errors showing were found when passing through the jshint .
 ![jshint testing screenshot](assets/images/jshint.png)
 Flow Chart Screenshot
-![flow chart screenshot](/assets/images/flowchart.png)
+![flow chart screenshot](assets/images/flowchart.png)
 
 ####
 
@@ -82,7 +82,7 @@ I confirmed that I done Manual Testing.
 
 * Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 
-![Screenshot Add](/assets/images/performancetesting.png)
+![Screenshot Add](assets/images/performancetesting.png)
 
 ####
 * Fonts:
@@ -108,14 +108,14 @@ Testing :
 * Chrome:
 
 
-*![testing outcome](/assets/images/testingoutcome.png)
+*![testing outcome](assets/images/testingoutcome.png)
 
 * The website was checked by devtools implemented in Edge and Chrome browsers.
 
 ####
 Wireframes
-* ![Screenshot](/assets/images/wireframeimage1.png)
-* ![Screenshot](/assets/images/wireframeimage2.png)
+* ![Screenshot](assets/images/wireframeimage1.png)
+* ![Screenshot](assets/images/wireframeimage2.png)
 
 Deployment
 
