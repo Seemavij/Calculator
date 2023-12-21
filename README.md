@@ -59,7 +59,8 @@ No errors showing were found when passing through the jshint .
 
 ![jshint testing screenshot](assets/images/jshint.png)
 
-Chart
+Chart:
+
 Flow Chart Screenshot
 
 ![flow chart screenshot](assets/images/flowchart.png)
@@ -91,6 +92,7 @@ Footer:
 * Use any opreator for calculation.
 
 ####
+
 Manual Testing :
 
 I confirmed that I done Manual Testing.
