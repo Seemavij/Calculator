@@ -1,7 +1,7 @@
-![respnsive](/assets/images/responsive.png1.png)
+![responsive]
 # User Stories :
 * First Time Visitor Goals:
-* As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the calculator.
+* As a First Time Visitor, I want to easily understand the main purpose of the site, so I can show more about the calculator.
 * As a First Time Visitor, I want to quickly acces the calculator so I can start Using.
 * As a first-time visitor, I want to understand the purpose of the Website, so I can use it properly.
 * As a first-time visitor, I want to see what technologies have been used to create the Website, so I can learn more about them and use them   myself.
@@ -47,7 +47,6 @@ Flow Chart Screenshot
 ####
 
 Footer:
-
 * contains as copyright of Author
 * CopyRight © 2023 Super Saver Calculator
 
