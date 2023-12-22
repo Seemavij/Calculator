@@ -100,6 +100,11 @@ I confirmed that I done Manual Testing.
 * I cofirmed all buttons working correct.
 * If you want to off press AC
 
+Unfixed Bugs :
+
+I tried to fix bugs maybe some of small were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider.
+
+Deployment
 
 ####
 * Accessibility and performance
