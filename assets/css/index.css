@@ -127,22 +127,117 @@ html  {
     background-color: rgb(212, 138, 0);
   }
 
-/* --------- Media queries */
-@media screen and (min-width: 600px) {
+/* Media queries */
 
-    .controls-area {
-     width: 70%;
-     margin: 10px auto;
-    }
-  
-    
-} 
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (min-width: 450px) {
+  #cover-image {
+      margin: 0 auto;
+      background-position: center;
+  }
 
+  .left-paragraph,
+  .right-paragraph {
+      height: 200px;
+  }
+}
 
-@media (max-width: 480px) {
-    .controls-area {
-     width: 75%;
-    
-}}
+/* For large to medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+  #menu {
+      margin-top: 20px;
+  }
+
+  #cover-text {
+      left: 0px;
+  }
+
+  #Isro {
+      width: 90%;
+      height: 1200px;
+      margin: 0 auto;
+  }
+
+  .left-about-heading,
+  .right-about-heading {
+      width: inherit;
+  }
+
+  .left-about-heading h2,
+  .right-about-heading h2 {
+      width: 100%;
+      text-align: center;
+  }
+
+  .left-about-heading p,
+  .right-about-heading p {
+      text-align: center;
+      padding: 0 20px 0 20px;
+  }
+
+  #photo {
+      column-count: 3;
+  }
+}
+
+/* For medium screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+  #chandrayaan-3 {
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
+  }
+
+  #photo {
+      column-count: 2;
+  }
+
+  #welcome {
+      padding: 30px 0;
+      margin-top: 0;
+  }
+
+  #left-about,
+  #right-about {
+      width: 100%;
+      float: left;
+      padding: 0;
+  }
+
+  #center-about {
+      clear: both;
+      width: 100%;
+      float: left;
+      padding: 0;
+  }
+
+  #times div {
+      width: 100%;
+      clear: both;
+      height: 150px;
+      padding: 0;
+  }
+
+  hr {
+      display: none;
+  }
+
+  .left-right-container {
+      flex-direction: column;
+  }
+
+  .left-paragraph,
+  .right-paragraph {
+      margin: 10px auto;
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header {
+      flex-direction: column;
+  }
+}
 
 
