@@ -135,7 +135,7 @@ html  {
   @media screen and (min-width: 480px) {
 
     .controls-area {
-     width: 70%;
+     width: 90%;
      margin: 10px auto;
     }
   
@@ -145,7 +145,7 @@ html  {
 
 @media (max-width: 900px) {
     .controls-area {
-     width: 75%;
+     width: 100%;
     
 }}
  
