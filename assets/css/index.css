@@ -131,19 +131,16 @@ html  {
     padding: 20px;
   }
 /* Media queries */
+   
 
-  @media screen and (min-width: 450px) {
-
-    .controls-area {
-     width: 60%;
-     margin: 0 auto;
-    }
+@media (max-width: 414px) {
+  .controls-area {
+      width: 100%;
+  }}
+  
   
     
-} 
-
-
-@media (max-width: 900px) {
+@media (min-width: 700px) {
     .controls-area {
      width: 75%;
     
